@@ -1,0 +1,283 @@
+exit
+vagrant ssh-config
+exit
+ssh vagrant@127.0.0.1 -i /Users/okamuratakuya/Desktop/gizumo/vagrant_test/.vagrant/machines/default/virtualbox/private_key
+exit
+sudo yum -y groupinstall "development tools"
+sudo yum -y install epel-release wget
+sudo wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+sudo rpm -Uvh remi-release-7.rpm
+sudo yum -y install --enablerepo=remi-php72 php php-pdo php-mysqlnd php-mbstring php-xml php-fpm php-common php-devel php-mysql unzip
+php -v
+ls /
+ls
+ls /usr
+ls -l
+ls / -l
+ls / -a
+ls -a
+pwd
+cd /vagrant
+ls
+pwd
+cd ~
+pwd
+cd //
+pwd
+cd -
+pwd
+cd //
+cd -
+pwd
+cd ..
+ls
+ls /
+cd vagrant
+pwd
+ls
+cd /vagrant
+cd /
+pwd
+ls
+pwd
+cd .
+pwd
+cd -
+pwd
+ls
+cd home
+ls
+cd vagrant
+ls
+pwd
+usr
+ls
+ls /
+/usr
+cd /usr
+pwd
+cd vagrant
+cd /home/vagrant
+pwd
+ls
+cd //
+ls
+cd home
+ls
+cd vagrant
+cd ..
+pwd
+cd home/vagrant
+ls
+cd home/vagrant
+cd ..
+pwd
+ls
+cd home
+cd /home/vagrant
+ls
+pwd
+cd /vagrant
+pwd
+ mkdir server_lesson && cd server_lesson
+pwd
+git init
+touch first.txt
+ls
+pwd
+ls
+cd /vagrant
+cd ..
+ls
+pwd
+mkdir server_lesson/linux_practice/public
+pwd
+mkdir -p server_lesson/linux_practice/public
+ls
+ls server_lesson server_lesson/lunux_practice
+pwd
+ls
+cd server_lesson
+ls
+cd linux_practice
+ls
+cd ..
+pwd
+touch server_lesson/linux_practice/public/index.php
+ls server_lesson/linux_practice/public
+cd /home/vagrant/server_lesson $$ ls
+pwd
+cd ..
+cd /home/vagrant/server_lesson $$ ls
+cd ..
+cd /vagrant/server_lesson $$ ls
+pwd
+cd server_lesson && ls
+cd /linux_practice && ls
+ls
+cd linux_practice && ls
+cd public && ls
+cp index.php index_bk.php
+ls
+cd ..
+pwd
+cp -r public tmp
+ls ./ public tmp
+ls
+cd ..
+pwd
+ls
+cd server_lesson
+ls
+cd ..
+pwd
+mv server_lesson/linux_practice server_lesson/linux_practice1
+ls
+cd server_lesson
+ls
+cd ..
+pwd
+ mkdir linux_practice2 linux_practice3
+ls
+mv ./linux_practice2 ./server_lesson
+l
+ls
+cd /home/vagrant/server_lesson/linux_practice1/tmp/
+ls
+rm *_bk.php
+ls
+cd ..
+pwd
+cd server_lesson
+ls
+cd 
+pwd
+rm server_lesson/first.txt
+cd server_lesson
+ls
+cd ..
+ls
+pwd
+rm -r linux_practice3
+ls server_lesson
+pwd
+l
+ls
+cd server_lesson
+echo '# サーバレッスン' > README.md
+echo 'Linuxプラクティス' >> README.md
+echo '-----------------' >> README.md
+cat README.md
+cd ..
+pwd
+ls
+cd server_lesson
+ls
+vi README.md
+ls
+cat README.md
+pwd
+ls
+ls linux_practice1/public
+ls linux_practice1
+git add server_lesson
+pwd
+cd ..
+ls
+git diff
+git status
+ls
+cd server_lesson
+git status
+git add ..
+git add .
+git status
+git commit -m '[Finish] task1'
+git status
+git log
+git remote add origin https://github.com/T-oka-4835/server_lesson.git
+git remote -v
+git push origin master
+ls
+cd linux_practice2
+cls
+ls
+pwd
+mkdir documents
+ls
+cd documents
+ls
+pwd
+touch gizumo{1..50}/.md
+touch gizumo{1..50}.md
+ls
+cd ..
+rm documents
+rm -r documents
+ls
+mkdir documents
+ls
+cd documents
+ls
+touch gizumo{01..50}.md
+ls
+cd ..
+ls
+mkdir trash
+ls
+cd documents
+ls
+mv gizumo{20..40}.md trash
+mv gizumo{20..40}.md /home/vagrant/server_lesson/linux_practice2/trash
+ls
+cd ..
+ls
+ls /trash
+ls trash
+ls
+mkdir .gitignore
+ls
+mkdir .gitignore
+ls
+vi .gitignore
+ls
+rm .gitignore
+rm -f gitignore
+s
+ls
+touch .gitignore
+ls
+vi .gitignore
+ls
+cd .gitignore
+cd ..
+ls
+rm -f .gitignore
+rm -r .gitignore
+ls
+cd .gitignore
+touch .gitignore
+ls
+cd .gitignore
+vi .gitignore
+ls
+ls trash
+history300
+history
+history 300
+ls
+touch exec_command.log
+ls
+history 300 -w exec_command.log
+history 300 -r exec_command.log
+history -r exec_command.log
+ls
+cd exec_command
+cat evec_command
+cat exec_command
+cat exec_command.log
+ls
+cat exec_command.log
+ls
+history 300
+history -w exec_command.log 300
